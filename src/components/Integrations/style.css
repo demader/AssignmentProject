@@ -1,0 +1,132 @@
+.integrations {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px 16px 24px;
+  position: relative;
+}
+
+.integrations .heading-4 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 266px;
+}
+
+.integrations .text-wrapper-12 {
+  align-self: stretch;
+  color: var(--semantic-tokens-color-text-text-brand);
+  font-family: var(--heading-heading-md-font-family);
+  font-size: var(--heading-heading-md-font-size);
+  font-style: var(--heading-heading-md-font-style);
+  font-weight: var(--heading-heading-md-font-weight);
+  letter-spacing: var(--heading-heading-md-letter-spacing);
+  line-height: var(--heading-heading-md-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.integrations .discover-a-variety {
+  align-self: stretch;
+  color: var(--semantic-tokens-color-text-text-brand);
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+}
+
+.integrations .frame-11 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  width: 266px;
+}
+
+.integrations .logos {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.integrations .paypal {
+  background-image: url(../../../static/img/image-3.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 34px;
+  position: relative;
+  width: 34px;
+}
+
+.integrations .ali-reviews {
+  background-image: url(../../../static/img/image-4.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 34px;
+  position: relative;
+  width: 34px;
+}
+
+.integrations .instagram-feed {
+  background-image: url(../../../static/img/image-11.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 34px;
+  position: relative;
+  width: 34px;
+}
+
+.integrations .google-analytics {
+  background-image: url(../../../static/img/image-9.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 34px;
+  position: relative;
+  width: 34px;
+}
+
+.integrations .shopify-flow {
+  background-image: url(../../../static/img/image-10.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 34px;
+  position: relative;
+  width: 34px;
+}
+
+.integrations .button-group-4 {
+  align-self: stretch !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  justify-content: unset !important;
+  width: 100% !important;
+}
+
+.integrations .button-group-5 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  transform: rotate(180deg) !important;
+  width: 139px !important;
+}
+
+.integrations .button-group-6 {
+  font-family: "Inter", Helvetica !important;
+  font-size: 12px !important;
+  font-style: unset !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  line-height: 16px !important;
+}

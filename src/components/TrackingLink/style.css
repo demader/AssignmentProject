@@ -1,0 +1,86 @@
+.tracking-link {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 16px 16px 24px;
+  position: relative;
+  width: 333px;
+}
+
+.tracking-link .heading {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.tracking-link .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.tracking-link .p {
+  color: var(--semantic-tokens-color-text-text-brand);
+  flex: 1;
+  font-family: var(--heading-heading-md-font-family);
+  font-size: var(--heading-heading-md-font-size);
+  font-style: var(--heading-heading-md-font-style);
+  font-weight: var(--heading-heading-md-font-weight);
+  letter-spacing: var(--heading-heading-md-letter-spacing);
+  line-height: var(--heading-heading-md-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.tracking-link .include-the-link-to {
+  align-self: stretch;
+  color: var(--semantic-tokens-color-text-text-brand);
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+}
+
+.tracking-link .span {
+  color: #4a4a4a;
+}
+
+.tracking-link .text-wrapper-2 {
+  color: #005bd3;
+  text-decoration: underline;
+}
+
+.tracking-link .button-group-instance {
+  align-self: stretch !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  justify-content: unset !important;
+  width: 100% !important;
+}
+
+.tracking-link .design-component-instance-node {
+  font-family: "Inter", Helvetica !important;
+  font-size: 12px !important;
+  font-style: unset !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  line-height: 16px !important;
+}
+
+.tracking-link .check-circle {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}

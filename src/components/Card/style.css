@@ -1,0 +1,24 @@
+.card {
+  align-items: flex-start;
+  background-color: var(--semantic-tokens-color-bg-surface-surface-duplicate);
+  border-radius: var(--variable-collection-card-radius-figma-only);
+  box-shadow: var(--shadow-100);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-p-space-4);
+  overflow: hidden;
+  padding: var(--semantic-tokens-space-card-padding);
+  position: relative;
+  width: 490px;
+}
+
+.card .slot-instance {
+  align-self: stretch !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.card .slot-2 {
+  width: 458px !important;
+}

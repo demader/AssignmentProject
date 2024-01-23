@@ -1,0 +1,35 @@
+.slot {
+  align-items: center;
+  border: 1px dashed;
+  border-color: var(--semantic-tokens-color-border-border-info);
+  display: inline-flex;
+  gap: var(--primitive-tokens-space-100);
+  justify-content: center;
+  padding: 2px;
+  position: relative;
+}
+
+.slot .text-wrapper-19 {
+  color: var(--semantic-tokens-color-text-text-info-on-bg-fill);
+  font-family: var(--body-body-md-default-font-family);
+  font-size: var(--body-body-md-default-font-size);
+  font-style: var(--body-body-md-default-font-style);
+  font-weight: var(--body-body-md-default-font-weight);
+  letter-spacing: var(--body-body-md-default-letter-spacing);
+  line-height: var(--body-body-md-default-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.slot .background {
+  background-color: var(--semantic-tokens-color-bg-fill-fill-info);
+  height: 24px;
+  left: 0;
+  opacity: 0.35;
+  position: absolute;
+  top: 0;
+  width: 29px;
+}

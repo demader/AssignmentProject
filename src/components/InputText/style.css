@@ -1,0 +1,29 @@
+.input-text {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-items: flex-start;
+  background: none;
+  border: none;
+  display: -webkit-box;
+  font-family: var(--body-body-md-default-font-family);
+  font-size: var(--body-body-md-default-font-size);
+  font-style: var(--body-body-md-default-font-style);
+  font-weight: var(--body-body-md-default-font-weight);
+  letter-spacing: var(--body-body-md-default-letter-spacing);
+  line-height: var(--body-body-md-default-line-height);
+  margin-top: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.input-text.value {
+  color: var(--semantic-tokens-color-text-text);
+}
+
+.input-text.placeholder {
+  color: var(--semantic-tokens-color-text-text-secondary-duplicate);
+  gap: 8px;
+}

@@ -1,0 +1,88 @@
+.HTML {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 16px;
+  position: relative;
+}
+
+.HTML .heading-7 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+  width: 300px;
+}
+
+.HTML .heading-8 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.HTML .text-wrapper-17 {
+  align-self: stretch;
+  color: var(--semantic-tokens-color-text-text-brand);
+  font-family: var(--heading-heading-md-font-family);
+  font-size: var(--heading-heading-md-font-size);
+  font-style: var(--heading-heading-md-font-style);
+  font-weight: var(--heading-heading-md-font-weight);
+  letter-spacing: var(--heading-heading-md-letter-spacing);
+  line-height: var(--heading-heading-md-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.HTML .text-wrapper-18 {
+  align-self: stretch;
+  color: var(--semantic-tokens-color-text-text-brand);
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+}
+
+.HTML .multiline-field-instance {
+  flex: 0 0 auto !important;
+  height: unset !important;
+  width: 300px !important;
+}
+
+.HTML .multiline-field-2 {
+  flex: unset !important;
+  flex-grow: unset !important;
+  height: 128px !important;
+}
+
+.HTML .button-group-9 {
+  display: flex !important;
+  flex: 0 0 auto !important;
+  justify-content: unset !important;
+  width: 266px !important;
+}
+
+.HTML .button-group-10 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  transform: rotate(180deg) !important;
+  width: 110px !important;
+}
+
+.HTML .button-group-11 {
+  font-family: "Inter", Helvetica !important;
+  font-size: 12px !important;
+  font-style: unset !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  line-height: 16px !important;
+}

@@ -1,0 +1,38 @@
+.button-shine {
+  height: 28px;
+  position: relative;
+  width: 56px;
+}
+
+.button-shine .shine {
+  background-color: var(--variable-collection-hack-do-not-implement);
+  border-radius: var(--semantic-tokens-border-border-radius-button);
+  height: 27px;
+  width: 55px;
+}
+
+.button-shine.state-1-active {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.button-shine.tone-1-default {
+  border-radius: var(--semantic-tokens-border-border-radius-button);
+}
+
+.button-shine.tone-1-default.state-1-rest {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 88.54%, rgba(255, 255, 255, 0.15) 100%);
+  box-shadow: var(--shadow-button-primary);
+}
+
+.button-shine.tone-1-default.state-1-hover {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 88.54%, rgba(255, 255, 255, 0.15) 100%);
+  box-shadow: var(--shadow-button-primary);
+}
+
+.button-shine.state-1-rest .shine {
+  box-shadow: var(--shadow-button-primary-critical);
+}
+
+.button-shine.state-1-hover .shine {
+  box-shadow: var(--shadow-button-primary-critical-hover);
+}

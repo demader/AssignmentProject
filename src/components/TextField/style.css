@@ -1,0 +1,209 @@
+.text-field {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: var(--primitive-tokens-space-100);
+  position: relative;
+  width: 320px;
+}
+
+.text-field .label-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: var(--primitive-tokens-space-200);
+  position: relative;
+  width: 100%;
+}
+
+.text-field .label-4 {
+  flex: 1;
+  font-family: var(--body-body-md-default-font-family);
+  font-size: var(--body-body-md-default-font-size);
+  font-style: var(--body-body-md-default-font-style);
+  font-weight: var(--body-body-md-default-font-weight);
+  letter-spacing: var(--body-body-md-default-letter-spacing);
+  line-height: var(--body-body-md-default-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.text-field .input {
+  align-items: center;
+  align-self: stretch;
+  border-radius: var(--semantic-tokens-border-border-radius-button);
+  display: flex;
+  flex: 0 0 auto;
+  gap: var(--primitive-tokens-space-100);
+  position: relative;
+  width: 100%;
+}
+
+.text-field .input-text-instance {
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+}
+
+.text-field .class-7 {
+  color: var(--semantic-tokens-color-text-text-disabled) !important;
+}
+
+.text-field .class-8 {
+  color: var(--semantic-tokens-color-text-text-secondary-duplicate) !important;
+}
+
+.text-field .class-9 {
+  color: var(--semantic-tokens-color-text-text-magic) !important;
+}
+
+.text-field .border-focus {
+  border: 2px solid;
+  border-color: var(--semantic-tokens-color-border-border-focus);
+  border-radius: 9px;
+  left: -3px;
+  position: absolute;
+  top: -3px;
+  width: 326px;
+}
+
+.text-field .inline-error {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: var(--primitive-tokens-space-200);
+  position: relative;
+}
+
+.text-field .alert-circle {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.text-field .text-wrapper-13 {
+  color: var(--semantic-tokens-color-text-text-critical);
+  font-family: var(--body-body-md-default-font-family);
+  font-size: var(--body-body-md-default-font-size);
+  font-style: var(--body-body-md-default-font-style);
+  font-weight: var(--body-body-md-default-font-weight);
+  letter-spacing: var(--body-body-md-default-letter-spacing);
+  line-height: var(--body-body-md-default-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-field .state-3-active {
+  color: var(--semantic-tokens-color-text-text);
+}
+
+.text-field .state-3-rest {
+  color: var(--semantic-tokens-color-text-text);
+}
+
+.text-field .state-3-hover {
+  color: var(--semantic-tokens-color-text-text);
+}
+
+.text-field .state-3-disabled {
+  color: var(--semantic-tokens-color-text-text-disabled);
+}
+
+.text-field .state-3-focus {
+  color: var(--semantic-tokens-color-text-text);
+}
+
+.text-field .state-3-read-only {
+  color: var(--semantic-tokens-color-text-text-secondary-duplicate);
+}
+
+.text-field .state-3-error {
+  color: var(--semantic-tokens-color-text-text);
+}
+
+.text-field .state-4-active {
+  background-color: var(--semantic-tokens-color-input-bg-surface-active);
+}
+
+.text-field .state-4-focus {
+  background-color: var(--semantic-tokens-color-input-bg-surface-hover);
+}
+
+.text-field .state-4-disabled {
+  background-color: var(--semantic-tokens-color-checkbox-bg-surface-disabled);
+}
+
+.text-field .state-4-read-only {
+  background-color: var(--semantic-tokens-color-checkbox-bg-surface-disabled);
+}
+
+.text-field .size-default {
+  padding: var(--primitive-tokens-space-150) var(--primitive-tokens-space-300) var(--primitive-tokens-space-150)
+    var(--primitive-tokens-space-300);
+}
+
+.text-field .size-slim {
+  padding: var(--primitive-tokens-space-100) var(--primitive-tokens-space-300) var(--primitive-tokens-space-100)
+    var(--primitive-tokens-space-300);
+}
+
+.text-field .state-4-error {
+  background-color: var(--semantic-tokens-color-bg-surface-surface-critical);
+  border: 0.66px solid;
+  border-color: var(--semantic-tokens-color-border-border-critical-secondary);
+}
+
+.text-field .state-4-rest.borderless-false {
+  border: 0.66px solid;
+}
+
+.text-field .tone-2-default.state-4-rest {
+  background-color: var(--semantic-tokens-color-input-bg-surface);
+}
+
+.text-field .state-4-hover.borderless-false {
+  border: 0.66px solid;
+}
+
+.text-field .borderless-false.state-4-focus {
+  border: 0.66px solid;
+  border-color: var(--semantic-tokens-color-input-border-hover);
+}
+
+.text-field .state-4-active.borderless-false {
+  border: 1px solid;
+  border-color: var(--semantic-tokens-color-input-border-active);
+}
+
+.text-field .state-4-hover.tone-2-default {
+  background-color: var(--semantic-tokens-color-input-bg-surface-hover);
+}
+
+.text-field .state-4-hover.tone-2-magic {
+  background-color: var(--semantic-tokens-color-bg-surface-surface-magic-hover);
+  border-color: var(--semantic-tokens-color-border-border-magic-secondary-hover);
+}
+
+.text-field .tone-2-magic.state-4-rest {
+  background-color: var(--semantic-tokens-color-bg-surface-surface-magic-duplicate);
+  border-color: var(--semantic-tokens-color-border-border-magic-secondary);
+}
+
+.text-field .tone-2-default.state-4-rest.borderless-false {
+  border-color: var(--semantic-tokens-color-input-border);
+}
+
+.text-field .state-4-hover.tone-2-default.borderless-false {
+  border-color: var(--semantic-tokens-color-input-border-hover);
+}
+
+.text-field .input.size-default .border-focus {
+  height: 38px;
+}
+
+.text-field .input.size-slim .border-focus {
+  height: 34px;
+}

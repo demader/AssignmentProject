@@ -1,0 +1,22 @@
+.button-group {
+  align-items: center;
+  display: inline-flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.button-group .button-instance {
+  flex: 0 0 auto !important;
+}
+
+.button-group.extra-tight {
+  gap: var(--primitive-tokens-space-100);
+}
+
+.button-group.loose {
+  gap: var(--primitive-tokens-space-500);
+}
+
+.button-group.tight {
+  gap: var(--semantic-tokens-space-button-group-gap);
+}
